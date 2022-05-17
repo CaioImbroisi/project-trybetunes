@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <main>
         <Switch>
-          <Route exact path="/" component={ Login } />
+          <Route exact path="/project-trybetunes" component={ Login } />
           <Route exact path="/album/:id" render={ (props) => <Album { ...props } /> } />
           <Route exact path="/favorites" component={ Favorites } />
           <Route exact path="/profile/edit" component={ ProfileEdit } />
